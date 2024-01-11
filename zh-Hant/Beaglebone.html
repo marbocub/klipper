@@ -175,6 +175,12 @@
                   </a>
                 </li>
                 
+                <li class="md-select__item">
+                  <a href="/fr/" hreflang="fr" class="md-select__link">
+                    Français
+                  </a>
+                </li>
+                
             </ul>
           </div>
         </div>
@@ -604,6 +610,20 @@
     <li class="md-nav__item">
       <a href="Endstop_Phase.html" class="md-nav__link">
         限位相位
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Axis_Twist_Compensation.html" class="md-nav__link">
+        Axis Twist Compensation
       </a>
     </li>
   
@@ -1206,8 +1226,36 @@
   
   
     <li class="md-nav__item">
+      <a href="Bootloader_Entry.html" class="md-nav__link">
+        Bootloader Entry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="CANBUS.html" class="md-nav__link">
         CAN 匯流排
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CANBUS_Troubleshooting.html" class="md-nav__link">
+        CANBUS Troubleshooting
       </a>
     </li>
   
@@ -1373,7 +1421,7 @@ sudo update-rc.d octoprint defaults
 <div class="highlight"><pre><span></span><code>sudo systemctl start octoprint
 </code></pre></div>
 
-<p>需要確定可以訪問 OctoPrint 網路伺服器 - 它應該可以通過這個鏈接訪問： <a href="http://beaglebone:5000/">http://beaglebone:5000/</a></p>
+<p>需要確定可以訪問 OctoPrint 網路伺服器 - 它應該可以通過這個鏈接訪問：<a href="http://beaglebone:5000/">http://beaglebone:5000/</a></p>
 <h2 id="_2">構建微控制器程式碼<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>要編譯的 Klipper 微控制器程式碼，需要先將編譯配置設為「Beaglebone PRU」：</p>
 <div class="highlight"><pre><span></span><code>cd ~/klipper/

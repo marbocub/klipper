@@ -175,6 +175,12 @@
                   </a>
                 </li>
                 
+                <li class="md-select__item">
+                  <a href="/fr/" hreflang="fr" class="md-select__link">
+                    Français
+                  </a>
+                </li>
+                
             </ul>
           </div>
         </div>
@@ -604,6 +610,20 @@
     <li class="md-nav__item">
       <a href="Endstop_Phase.html" class="md-nav__link">
         Végállás fázis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Axis_Twist_Compensation.html" class="md-nav__link">
+        Tengely fordulat kompenzáció
       </a>
     </li>
   
@@ -1137,8 +1157,36 @@
   
   
     <li class="md-nav__item">
+      <a href="Bootloader_Entry.html" class="md-nav__link">
+        Bootloader belépés
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="CANBUS.html" class="md-nav__link">
         CANBUS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CANBUS_Troubleshooting.html" class="md-nav__link">
+        CANBUS Hibaelhárítás
       </a>
     </li>
   
@@ -1300,12 +1348,12 @@
 
 
 <h1 id="tsl1401cl-nyomtatoszal-szelesseg-erzekelo">TSL1401CL nyomtatószál szélesség érzékelő<a class="headerlink" href="#tsl1401cl-nyomtatoszal-szelesseg-erzekelo" title="Permanent link">&para;</a></h1>
-<p>Ez a dokumentum a nyomtatószál szélesség érzékelő gazdagép modulját írja le. A gazdamodul fejlesztéséhez használt hardver a TSL1401CL lineáris érzékelőtömbön alapul, de bármilyen analóg kimenettel rendelkező érzékelőtömbbel működik. Terveket a <a href="https://www.thingiverse.com/search?q=filament%20width%20sensor">Thingiverse</a> oldalon találja.</p>
+<p>Ez a dokumentum a nyomtatószál szélesség érzékelő gazdagép modulját írja le. A gazdamodul fejlesztéséhez használt hardver a TSL1401CL lineáris érzékelőtömbön alapul, de bármilyen analóg kimenettel rendelkező érzékelőtömbbel működik. Terveket a <a href="https://www.thingiverse.com/search?q=filament%20width%20sensor">Thingiverse</a> oldalon találod.</p>
 <p>Érzékelőtömb nyomtatószál szélesség érzékelőként való használatához olvasd el a <a href="Config_Reference.html#tsl1401cl_filament_width_sensor">Konfigurációs hivatkozás</a> és a <a href="G-Codes.html#hall_filament_width_sensor">G-kód dokumentáció</a> részt.</p>
 <h2 id="hogyan-mukodik">Hogyan működik?<a class="headerlink" href="#hogyan-mukodik" title="Permanent link">&para;</a></h2>
 <p>Az érzékelő analóg kimenetet generál a számított nyomtatószál szélessége alapján. A kimeneti feszültség mindig megegyezik a nyomtatószál érzékelt szélességével (pl. 1,65 V, 1,70 V, 3,0 V). A gazdamodul figyeli a feszültségváltozásokat és beállítja az extrudálási szorzót.</p>
 <h2 id="jegyzet">Jegyzet:<a class="headerlink" href="#jegyzet" title="Permanent link">&para;</a></h2>
-<p>Az érzékelő leolvasása alapértelmezés szerint 10 mm-es időközönként történik. Ha szükséges, szabadon módosíthatja ezt a beállítást a <strong><em>MEASUREMENT_INTERVAL_MM</em></strong> paraméter szerkesztésével a <strong>filament_width_sensor.py</strong> fájlban.</p>
+<p>Az érzékelő leolvasása alapértelmezés szerint 10 mm-es időközönként történik. Ha szükséges, szabadon módosíthatod ezt a beállítást a <strong><em>MEASUREMENT_INTERVAL_MM</em></strong> paraméter szerkesztésével a <strong>filament_width_sensor.py</strong> fájlban.</p>
 
               
             </article>
@@ -1324,7 +1372,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Élőláb">
       
         
-        <a href="CANBUS.html" class="md-footer__link md-footer__link--prev" aria-label="Előző: CANBUS" rel="prev">
+        <a href="CANBUS_Troubleshooting.html" class="md-footer__link md-footer__link--prev" aria-label="Előző: CANBUS Hibaelhárítás" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1333,7 +1381,7 @@
               <span class="md-footer__direction">
                 Előző
               </span>
-              CANBUS
+              CANBUS Hibaelhárítás
             </div>
           </div>
         </a>

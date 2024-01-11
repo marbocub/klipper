@@ -175,6 +175,12 @@
                   </a>
                 </li>
                 
+                <li class="md-select__item">
+                  <a href="/fr/" hreflang="fr" class="md-select__link">
+                    Français
+                  </a>
+                </li>
+                
             </ul>
           </div>
         </div>
@@ -604,6 +610,20 @@
     <li class="md-nav__item">
       <a href="Endstop_Phase.html" class="md-nav__link">
         Endstop phase
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Axis_Twist_Compensation.html" class="md-nav__link">
+        Axis Twist Compensation
       </a>
     </li>
   
@@ -1233,8 +1253,36 @@
   
   
     <li class="md-nav__item">
+      <a href="Bootloader_Entry.html" class="md-nav__link">
+        Bootloader Entry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="CANBUS.html" class="md-nav__link">
         CANBUS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CANBUS_Troubleshooting.html" class="md-nav__link">
+        CANBUS Troubleshooting
       </a>
     </li>
   
@@ -1511,13 +1559,13 @@ in dictionary, for example:</p>
 
 <p>The following fields may be specified:</p>
 <ul>
-<li><code>mcu</code>: The mcu type.  This can be retrevied after configuring the build
+<li><code>mcu</code>: The mcu type.  This can be retrieved after configuring the build
   via <code>make menuconfig</code> by running <code>cat .config | grep CONFIG_MCU</code>.  This
   field is required.</li>
-<li><code>spi_bus</code>:  The SPI bus connected to the SD Card.  This should be retreived
+<li><code>spi_bus</code>:  The SPI bus connected to the SD Card.  This should be retrieved
   from the board's schematic.  This field is required.</li>
 <li><code>cs_pin</code>: The Chip Select Pin connected to the SD Card.  This should be
-  retreived from the board schematic.  This field is required.</li>
+  retrieved from the board schematic.  This field is required.</li>
 <li><code>firmware_path</code>: The path on the SD Card where firmware should be
   transferred.  The default is <code>firmware.bin</code>.</li>
 <li><code>current_firmware_path</code>: The path on the SD Card where the renamed firmware
@@ -1553,7 +1601,7 @@ following alias may be added to specify <code>my-new-board</code> as an alias fo
 
 <p>If you need a new board definition and you are uncomfortable with the
 procedure outlined above it is recommended that you request one in
-the <a href="Contact.html#discord">Klipper Community Discord</a>.</p>
+the <a href="Contact.html">Klipper Discord</a>.</p>
 <h2 id="flashing-boards-that-use-sdio">Flashing Boards that use SDIO<a class="headerlink" href="#flashing-boards-that-use-sdio" title="Permanent link">&para;</a></h2>
 <p><a href="#caveats">As mentioned in the Caveats</a>, boards whose bootloader uses
 SDIO mode to access their SD Card require a power-cycle of the board,
